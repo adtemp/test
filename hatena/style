@@ -10,7 +10,6 @@
   font-family: "Yu Gothic UI", "SF Pro JP", Arial, sans-serif;
 }
 
-#box2-inner > div:nth-child(-2n+3),
 .entry-footer-section,
 .page-index .content-main,
 .page-index .entry-footer :not(.google-afc-image) {
