@@ -12,7 +12,8 @@
 
 .entry-footer-section,
 .page-index .content-main,
-.page-index .entry-footer :not(.google-afc-image) {
+.page-index .entry-footer :not(.google-afc-image),
+.page-entry .no-image {
   display: none;
 }
 
