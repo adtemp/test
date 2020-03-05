@@ -1,7 +1,11 @@
 function sbb() {
     let btn = document.getElementById("side-bar-button");
     let ae = btn.getAttribute("aria-expanded");
-    ae = ae === "true" ? "false" : "true";
+    if(ae === "true") {
+        ae = "false";
+    } else {
+        ae = "true";
+    }
     btn.setAttribute("aria-expanded", ae);
 }
 let btn = document.getElementById("side-bar-button");
